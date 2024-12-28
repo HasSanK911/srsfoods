@@ -1,0 +1,58 @@
+#contact {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.input-field {
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.input-field:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 767px) {
+    .input-field {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+.card{
+    height: 13rem;
+}
